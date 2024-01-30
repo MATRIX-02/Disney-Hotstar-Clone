@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import db from "../firebase";
 
-const Detail = (props) => {
+const Detail = () => {
   const { id } = useParams();
   const [detailData, setDetailData] = useState({});
 
