@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { selectTrending } from "../features/movie/movieSlice";
 
-const Trending = (props) => {
+const Trending = () => {
   const movies = useSelector(selectTrending);
 
   return (
